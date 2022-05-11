@@ -34,5 +34,5 @@ async def on_message(message):
     for word in nice_words:
         if word in message.content:
               await message.channel.send(nice_replies[nice_words.index(word)])
-
-client.run('ODgzNDMxNDM5NjU4NTE2NDgw.YTJ1pA.u5SxHgKTuyfMJ-8IPpoGWdDH9rs')
+token_d=''
+client.run(token_d)
